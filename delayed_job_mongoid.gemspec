@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.add_dependency    'delayed_job'
-  spec.add_dependency    'mongoid'
+  spec.add_dependency    'mongoid', '~> 4', github: 'mongoid/mongoid', ref: '9b3bc1264032209b7a6c0e82d0ca656f401e476b'
   spec.authors         = ["Chris Gaffney", "Brandon Keepers", "Erik Michaels-Ober"]
   spec.email           = ['chris@collectiveidea.com', 'brandon@opensoul.com', 'sferik@gmail.com']
   spec.files           = %w(CHANGELOG.md CONTRIBUTING.md LICENSE.md README.md Rakefile delayed_job_mongoid.gemspec)
